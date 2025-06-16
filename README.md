@@ -1,9 +1,12 @@
-# 📧 Email Validator Tool
+# 📧 Email Checker MCP Starter
 
-A comprehensive email validation tool with both web interface and command-line functionality. This tool validates email addresses using format checking and SMTP verification to determine if emails are properly formatted and potentially reachable.
+A starter project for building an email validation MCP (Model Context Protocol) server. This tool provides comprehensive email validation capabilities with both web interface and command-line functionality, serving as the foundation for a more advanced MCP implementation.
+
+**🚀 This project is the foundation for developing an email-checker-mcp server that will integrate with AI models through the Model Context Protocol.**
 
 [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.0+-red.svg)](https://streamlit.io/)
+[![MCP](https://img.shields.io/badge/MCP-Ready-green.svg)](https://modelcontextprotocol.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 🌟 Features
@@ -16,6 +19,17 @@ A comprehensive email validation tool with both web interface and command-line f
 - **📱 Responsive Design**: Works on desktop and mobile devices
 - **⚡ Fast Processing**: Optimized for handling large email lists
 - **🛡️ Error Handling**: Robust error handling and timeout management
+- **🔌 MCP Foundation**: Designed as a starting point for MCP server development
+
+## 🎯 Model Context Protocol (MCP) Vision
+
+This project serves as a foundation for building an email-checker-mcp server that will:
+
+- **🤖 AI Integration**: Provide email validation capabilities to AI models
+- **📡 Protocol Compliance**: Follow MCP specifications for seamless integration
+- **🔧 Tool Exposure**: Expose email validation functions as MCP tools
+- **📊 Structured Responses**: Return validation results in MCP-compatible formats
+- **🔗 Model Connectivity**: Enable AI models to validate emails in real-time
 
 ## 🚀 Quick Start
 
@@ -126,21 +140,21 @@ print(f"Email validation: {is_valid} - {message}")
 ## 📁 Project Structure
 
 ```
-email-validator-tool/
+email-checker-mcp-starter/
 ├── streamlit_email.py          # Main Streamlit web application
 ├── requirements.txt            # Python dependencies
 ├── README.md                   # Project documentation
 ├── LICENSE                     # MIT License
-├── .gitignore                 # Git ignore file
+├── CONTRIBUTING.md             # Contribution guidelines
 ├── email/
-│   ├── email_validate_script.py  # Core validation logic
+│   ├── email_validate_script.py  # Core validation logic (MCP foundation)
 │   └── emails.csv             # Sample email data
 ├── phone/
-│   └── validate_phone.py      # Future phone validation (coming soon)
-├── docs/
-│   └── screenshots/           # Application screenshots
-└── tests/
-    └── test_email_validation.py  # Unit tests
+│   └── validate_phone.py      # Future phone validation
+└── mcp-server/                # Future MCP server implementation
+    ├── server.py              # MCP server entry point (planned)
+    ├── tools.py               # MCP tool definitions (planned)
+    └── schemas.py             # MCP response schemas (planned)
 ```
 
 ## 🎯 Validation Results
@@ -193,14 +207,42 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔮 Roadmap
 
-- [ ] Phone number validation (in development)
-- [ ] API endpoints for integration
-- [ ] Database storage options
+### Current Version (Starter)
+
+- [x] Email format validation
+- [x] SMTP verification
+- [x] Web interface with Streamlit
+- [x] Batch processing capabilities
+- [x] CSV export functionality
+
+### Upcoming MCP Integration
+
+- [ ] **MCP Server Implementation**: Build compliant MCP server
+- [ ] **Tool Definitions**: Define email validation tools for AI models
+- [ ] **Protocol Handlers**: Implement MCP request/response handling
+- [ ] **Schema Validation**: Ensure MCP-compatible data structures
+- [ ] **AI Model Testing**: Test integration with popular AI models
+
+### Future Enhancements
+
+- [ ] Phone number validation
 - [ ] Advanced email reputation checking
-- [ ] Webhook notifications
+- [ ] Real-time API endpoints
+- [ ] Database storage options
 - [ ] Docker containerization
-- [ ] Build MCP
-- [ ] CLI tool with more options
+- [ ] Performance optimizations
+- [ ] Extended MCP tool capabilities
+
+## 🛠️ Building the MCP Server
+
+This starter project provides the foundation for creating an MCP server. The core validation logic in `email/email_validate_script.py` can be wrapped in MCP-compliant tools to enable AI models to validate emails.
+
+### Key Components for MCP Implementation:
+
+1. **Tool Registration**: Register email validation functions as MCP tools
+2. **Request Handling**: Process MCP requests and route to validation functions
+3. **Response Formatting**: Format validation results according to MCP specifications
+4. **Error Handling**: Provide meaningful error responses for invalid requests
 
 ## 📊 Screenshots
 
@@ -214,9 +256,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- [Streamlit](https://streamlit.io/) for the amazing web framework
+- [Model Context Protocol](https://modelcontextprotocol.io/) for the amazing protocol specification
+- [Streamlit](https://streamlit.io/) for the web framework
 - [dnspython](https://dnspython.readthedocs.io/) for DNS resolution
 - [pandas](https://pandas.pydata.org/) for data manipulation
+
+## 📚 MCP Resources
+
+- [MCP Official Documentation](https://modelcontextprotocol.io/docs)
+- [MCP GitHub Repository](https://github.com/modelcontextprotocol)
+- [MCP Server Examples](https://github.com/modelcontextprotocol/servers)
 
 ## 📈 Stats
 
@@ -227,5 +276,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
-  <b>Made with ❤️ for the developer community</b>
+  <b>🚀 Building the future of AI-powered email validation with MCP</b><br>
+  <em>Made with ❤️ for the developer and AI community</em>
 </div>
