@@ -38,8 +38,8 @@ This project serves as a foundation for building an email-checker-mcp server tha
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/email-validator-tool.git
-   cd email-validator-tool
+   git clone https://github.com/Jayanth-MKV/email-checker-mcp.git
+   cd email-checker-mcp
    ```
 
 2. **Install dependencies**
@@ -102,8 +102,8 @@ pip install streamlit pandas dnspython
 ### From Source
 
 ```bash
-git clone https://github.com/yourusername/email-validator-tool.git
-cd email-validator-tool
+git clone https://github.com/Jayanth-MKV/email-checker-mcp.git
+cd email-checker-mcp
 pip install -r requirements.txt
 ```
 
@@ -201,9 +201,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🐛 Issues and Support
 
-- **Bug Reports**: [Create an issue](https://github.com/yourusername/email-validator-tool/issues)
-- **Feature Requests**: [Request a feature](https://github.com/yourusername/email-validator-tool/issues)
-- **Documentation**: [Wiki](https://github.com/yourusername/email-validator-tool/wiki)
+- **Bug Reports**: [Create an issue](https://github.com/Jayanth-MKV/email-checker-mcp/issues)
+- **Feature Requests**: [Request a feature](https://github.com/Jayanth-MKV/email-checker-mcp/issues)
+- **Documentation**: [Wiki](https://github.com/Jayanth-MKV/email-checker-mcp/wiki)
 
 ## 🔮 Roadmap
 
@@ -269,9 +269,9 @@ This starter project provides the foundation for creating an MCP server. The cor
 
 ## 📈 Stats
 
-![GitHub stars](https://img.shields.io/github/stars/yourusername/email-validator-tool?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/email-validator-tool?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/email-validator-tool)
+![GitHub stars](https://img.shields.io/github/stars/Jayanth-MKV/email-checker-mcp?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Jayanth-MKV/email-checker-mcp?style=social)
+![GitHub issues](https://img.shields.io/github/issues/Jayanth-MKV/email-checker-mcp)
 
 ---
 
